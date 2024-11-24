@@ -7,6 +7,7 @@ import (
 	"github.com/KingGiveFiveCoins/Expenses/internal/config"
 	"github.com/KingGiveFiveCoins/Expenses/internal/handlers"
 	"github.com/KingGiveFiveCoins/Expenses/internal/middleware"
+	_ "github.com/KingGiveFiveCoins/Expenses/internal/swagger"
 	"github.com/gorilla/mux"
 	httpSwagger "github.com/swaggo/http-swagger"
 )
